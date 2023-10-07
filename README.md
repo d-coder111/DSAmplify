@@ -1,4 +1,4 @@
-# DSA-algo-fundamentals-cpp-JAVA
+# DSA-fundamentals-cpp-JAVA-Website
 📌Our aim is to build a website covering all the algorithms in C++ and Java language and their contributors for this repository.
 #### For that our to-do tasks are-
  1. Data Structures and algorithm programs implemented in C++ &amp; Java.
