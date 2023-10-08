@@ -1,6 +1,6 @@
 //Link:-https://leetcode.com/problems/find-peak-element/
 
-class Main {
+class FindPeakElement {
     public static int findPeakElement(int[] arr) {
         int start = 0;
         int end = arr.length - 1;
@@ -18,6 +18,6 @@ class Main {
     public static void main(String[] args) {
         int arr[] = { 1000, 11, 445, 1, 330, 3000 };
         int ans = findPeakElement(arr);
-        System.out.println("Peak element is " + ans);
+        System.out.println("Index of the peak element of array [ 1000, 11, 445, 1, 330, 3000 ] is " + ans);
     }
 }
