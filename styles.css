@@ -1,0 +1,28 @@
+body{
+  background-color: #2596be;
+}
+
+table {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  position: center ;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+  
+  th, td {
+    border: 1px solid black;
+    padding: 5px;
+    color:red;
+  }
+  
+  th {
+    background-color: #ccc;
+    color: red;
+  }
