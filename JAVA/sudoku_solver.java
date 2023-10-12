@@ -8,7 +8,6 @@ public class sudoku_solver {
             System.out.println("Sudoku Can Not be solved");
         }
     }
-
     public static boolean solve(char[][] board, int row, int col) {
         if (col == board[0].length) {
             col = 0;
