@@ -1,0 +1,12 @@
+This Directory Contanis problems Which are realted AI Algorithms 
+It Includes Files algorithms Such as 
+- Uninformed Search
+- BFS / DFS
+- CSP(Contraint Satisfaction Problems)
+- Minimax Algorithm
+
+Question 1 : Tic Tac Toe with Normal Approach
+Question 2 : Tic Tac Toe with AI Approach
+Question 3 : BFS DFS Traversal 
+Question 4 : Greedy-Search Algorithm
+Question 5 : Contraint Satisfication Problem
