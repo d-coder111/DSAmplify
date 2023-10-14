@@ -25,4 +25,4 @@
 - 🎗 Consequently, we enthusiastically invite programs covering a wide range of complexity, from fundamental to advanced levels, with a specific focus on data structures and algorithms.
 - 👩‍💻 We also welcome people to contribute to build a working website displaying all the contributors and their programs for this repository.
 
-### 💟Feel like sprinkling a little stardust of encouragement? Hit that star button on the repository to let us know you're cheering us on!🌟💫
+### 💟😊Feel like sprinkling a little stardust of encouragement? Hit that star button on the repository to let us know you're cheering us on!🌟💫
