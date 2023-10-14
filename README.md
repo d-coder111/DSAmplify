@@ -1,4 +1,4 @@
-# DSAmplify: Cultivating Knowledge, Fostering Collaboration
+# DSAmplify: Cultivating Knowledge, Fostering Collaboration 👩‍💻
 📌Our aim is to build a website covering all the algorithms in C++ and Java language and their contributors for this repository.
 #### For that our to-do tasks are-
  1. Data Structures and algorithm programs implemented in C++ &amp; Java.
@@ -14,8 +14,8 @@
 
  ### 🌟 Steps to Contribute:
  1. Register your GitHub ID on [Hackoberfest Website](https://hacktoberfest.com/auth/)
- 2. Fork the repository.
- 3. Add programs in their respective folders or contribute to the web-development domain of this repository and please avoid redundant & duplicate programs.
+ 2. Fork the repository and mark it with a star to demonstrate your support⭐.
+ 3. Add the programs in their designated folders or contribute to the web development section of this repository, making sure to avoid redundant and duplicate programs.
  4. Commit and push your changes.
  5. Create a pull request to the original repository.
  6. Your pull request will be reviewed and merged.
