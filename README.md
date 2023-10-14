@@ -24,3 +24,5 @@
 - 🌱 Given that data structures and algorithms constitute the core principles of computer science, our aim is to promote collaboration and learning. 
 - 🎗 Consequently, we enthusiastically invite programs covering a wide range of complexity, from fundamental to advanced levels, with a specific focus on data structures and algorithms.
 - 👩‍💻 We also welcome people to contribute to build a working website displaying all the contributors and their programs for this repository.
+
+### 💟Feel like sprinkling a little stardust of encouragement? Hit that star button on the repository to let us know you're cheering us on!🌟💫
