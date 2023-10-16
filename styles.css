@@ -26,6 +26,11 @@ header .Head-Name{
   font-weight: bolder;
   padding-top: 2.1rem;
 }
+header .Head-Name img{
+  mix-blend-mode: lighten;
+  width: 150px;
+  height: 100px;
+}
 header ul{
   display: flex;
   justify-content: space-around;
