@@ -58,13 +58,16 @@ header ul li a:hover{
   color: white;
   font-size: 40px;
 }
-
-table {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.contributorsList{
+  display: flex;
+  justify-content: center;
+  padding-top: 20rem;
+  margin-bottom: 10rem;
 }
+table {
+  border-collapse:collapse ;
+}
+
 h1 {
   position: center ;
   top: 50%;
@@ -72,28 +75,31 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
-table{
+  
+th, td {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 12px;
+  color:white;
+  font-size: 1.9rem;
   border-collapse: collapse;
+  text-align: center;
 }
   
-  th, td {
-    border: 1px solid rgb(255, 255, 255);
-    padding: 5px;
-    color:red;
-    font-size: 1.5rem;
-    border-collapse: collapse;
-  }
-  
-  th:first-child{
-    color: red;
-    padding: 5px 15px;
-  }
-  th:nth-child(2){
-    padding: 5px 30px;
-  }
-  th:nth-child(3){
-    padding: 5px 30px;
-  }
-  th:nth-child(4){
-    padding: 5px 30px;
-  }
+th:first-child{
+  color: red;
+  padding: 5px 15px;
+}
+th:nth-child(2){
+  padding: 5px 30px;
+}
+th:nth-child(3){
+  padding: 5px 4rem;
+}
+th:nth-child(4){
+  padding: 5px 8rem;
+}
+.headtable th{
+  background-color: black;
+  color: white;
+  font-size: 2.1rem;
+}
