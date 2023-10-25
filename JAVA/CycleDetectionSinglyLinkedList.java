@@ -1,8 +1,10 @@
+import java.util.LinkedList;
+
 public class CycleDetectionSinglyLinkedList {
 
     //Initialzing Node
     private static class Node {
-        int val;
+    int val;
         Node next;
         Node(int x) {
             val = x;
