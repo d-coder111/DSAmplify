@@ -1,5 +1,5 @@
 # DSAmplify: Cultivating Knowledge, Fostering Collaboration 👩‍💻
-📌Our aim is to build a website that encompasses a comprehensive collection of algorithms in C++, Java, Python, and other programming languages, along with recognizing and acknowledging their contributors for this repository.
+📌Our aim is to build a website that comprehensively covers algorithms in C++, Java, Python, and other programming languages, along with acknowledging the contributors to this repository.
 #### For that our to-do tasks are-
  1. Data Structures and algorithm programs implemented in C++ &amp; Java and other languagues.
  2. Making a html,css and javascript page to form a working website showing all the contributors and along with their contributions in this repository.
