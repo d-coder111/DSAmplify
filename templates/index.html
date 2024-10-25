@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DSAmplify - Contribute</title>
+
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+          Arial, sans-serif;
+        background-color: #f6f8fa;
+        color: #24292e;
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        border: 1px solid #e1e4e8;
+      }
+
+      header {
+        background-color: #0366d6;
+        padding: 20px;
+        color: white;
+        text-align: center;
+        border-radius: 8px;
+      }
+
+      header .Head-Name p {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+
+      header ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      header ul li {
+        display: inline;
+        margin-right: 15px;
+      }
+
+      header ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+      }
+
+      header ul li a:hover {
+        text-decoration: underline;
+      }
+
+      h2 {
+        color: #0366d6;
+        margin-top: 30px;
+        font-size: 1.5rem;
+      }
+
+      p {
+        margin-bottom: 15px;
+      }
+
+      code {
+        background-color: #f3f4f6;
+        color: #0366d6;
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 0.95rem;
+        border: 1px solid #e1e4e8;
+      }
+
+      a {
+        color: #0366d6;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .container {
+        background-color: white;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 1px 3px rgba(27, 31, 35, 0.12),
+          0 8px 24px rgba(27, 31, 35, 0.1);
+        border: 1px solid #e1e4e8;
+        margin-top: 20px;
+      }
+
+      @media (max-width: 768px) {
+        body {
+          padding: 15px;
+        }
+
+        h2 {
+          text-align: center;
+        }
+
+        header ul li {
+          display: block;
+          margin: 10px 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="Head-Name">
+        <p>DSAmplify</p>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Contributors</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </header>
+
+    <h1>DSA Problem Solutions</h1>
+    <form action="/language" method="POST">
+        <label for="language">Select Language:</label>
+        <select id="language" name="language">
+            <option value="C++">C++</option>
+            <option value="JAVA">Java</option>
+            <option value="Python">Python</option>
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+
+  </body>
+</html>
