@@ -123,24 +123,55 @@
 
     <h1>DSA Problem Solutions</h1>
     <form action="/language" method="POST">
-        <label for="language">Select Language:</label>
-        <select id="language" name="language">
-            <option value="C++">C++</option>
-            <option value="JAVA">Java</option>
-            <option value="Python">Python</option>
-        </select>
-        <input type="submit" value="Submit">
+      <label for="language">Select Language:</label>
+      <select id="language" name="language">
+        <option value="C++">C++</option>
+        <option value="JAVA">Java</option>
+        <option value="Python">Python</option>
+      </select>
+      <input type="submit" value="Submit">
     </form>
 
-    <!-- display the questions of the selected language -->
+    <!-- Display the questions of the selected language -->
     {% if questions %}
       <h2>{{ language }} Problems</h2>
       <ul>
-          {% for question in questions %}
-              <li><a href="#">{{ question['name'] }}</a></li>
-          {% endfor %}
+        {% for question in questions %}
+          <li><a href="#">{{ question['name'] }}</a></li>
+        {% endfor %}
       </ul>
     {% endif %}
+
+    <!-- New Section: Contributors -->
+    <section>
+      <h2>Our Contributors</h2>
+      <p>We appreciate the efforts of all our contributors who help make this project successful. Below is a list of contributors along with their contributions:</p>
+      <ul id="contributors">
+        <li>
+          <strong>Alice</strong> - Implemented sorting algorithms in C++ and Java.
+        </li>
+        <li>
+          <strong>Bob</strong> - Developed the web interface for contributors' display.
+        </li>
+        <li>
+          <strong>Charlie</strong> - Added Python solutions for common data structure problems.
+        </li>
+        <!-- Add more contributors as necessary -->
+      </ul>
+    </section>
+
+    <!-- New Section: How to Contribute -->
+    <section>
+      <h2>How to Contribute</h2>
+      <p>Your contributions help enhance this project! Follow these steps to get started:</p>
+      <ol>
+        <li>Fork the repository.</li>
+        <li>Add your code in the appropriate language folder.</li>
+        <li>Ensure to check for duplicate solutions.</li>
+        <li>Create a pull request for your changes.</li>
+      </ol>
+      <p>For more details, please check the <a href="#">Contributing Guidelines</a>.</p>
+    </section>
 
   </body>
 </html>
