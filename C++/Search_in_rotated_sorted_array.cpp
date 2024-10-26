@@ -1,3 +1,4 @@
+#include <iostream>
 #include <vector>
 using namespace std;
 
@@ -94,3 +95,18 @@ public:
         return -1;
     }
 };
+
+int main() {
+    Solution sol;
+    vector<int> nums = {4, 5, 6, 7, 0, 1, 2};
+    int target = 0;
+
+    int result = sol.search(nums, target);
+    if (result != -1) {
+        cout << "Target " << target << " found at index: " << result << endl;
+    } else {
+        cout << "Target " << target << " not found in the array." << endl;
+    }
+
+    return 0;
+}
