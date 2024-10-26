@@ -1,19 +1,21 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
+
+body {
   height: 100%;
   width: 100%;
   background-color: #232D3F;
+  font-family: Arial, sans-serif;
 }
 
-html{
+html {
   font-size: 62.5%;
 }
 
-header{
+header {
   display: flex;
   justify-content: space-between;
   height: 5rem;
@@ -21,85 +23,135 @@ header{
   color: white;
   padding-left: 5.5rem;
 }
-header .Head-Name{
+
+header .Head-Name {
   font-size: 30px;
   font-weight: bolder;
   padding-top: 2.1rem;
 }
-header .Head-Name img{
+
+header .Head-Name img {
   mix-blend-mode: lighten;
   width: 150px;
   height: 100px;
 }
-header ul{
+
+header ul {
   display: flex;
   justify-content: space-around;
   padding-top: 3.2rem;
   flex-basis: 40%;
-  justify-content: space-around;
 }
-header ul li{
+
+header ul li {
   list-style: none;
   font-size: 20px;
 }
-header ul li a{
+
+header ul li a {
   color: white;
   text-decoration: none;
 }
-header ul li a:hover{
+
+header ul li a:hover {
   border-bottom: 2px solid white;
+  transition: border-bottom 0.3s ease;
 }
 
-.AboveList{
+.AboveList {
   position: absolute;
   top: 29%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   color: white;
   font-size: 40px;
 }
-.contributorsList{
+
+.contributorsList {
   display: flex;
   justify-content: center;
   padding-top: 20rem;
   margin-bottom: 10rem;
 }
+
+#contributors-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the contributor cards */
+}
+
+.contributor {
+  background: #ffffff;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 150px;
+  text-align: center;
+  transition: transform 0.3s ease; /* Smooth scaling effect */
+}
+
+.contributor:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
 table {
-  border-collapse:collapse ;
+  border-collapse: collapse;
+  width: 100%; /* Ensure the table takes the full width */
 }
 
 h1 {
-  position: center ;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 3rem; /* Increase font size for better visibility */
+  margin: 2rem 0; /* Add margin for spacing */
 }
 
-  
 th, td {
   border: 1px solid rgb(255, 255, 255);
   padding: 12px;
-  color:white;
+  color: white;
   font-size: 1.9rem;
-  border-collapse: collapse;
   text-align: center;
 }
-  
-th:first-child{
+
+th:first-child {
   color: red;
   padding: 5px 15px;
 }
-th:nth-child(2){
+
+th:nth-child(2) {
   padding: 5px 30px;
 }
-th:nth-child(3){
+
+th:nth-child(3) {
   padding: 5px 4rem;
 }
-th:nth-child(4){
+
+th:nth-child(4) {
   padding: 5px 8rem;
 }
-.headtable th{
+
+.headtable th {
   background-color: black;
   color: white;
   font-size: 2.1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column; /* Stack header items vertically on small screens */
+  }
+
+  header ul {
+    flex-direction: column; /* Stack menu items vertically */
+  }
+
+  .contributor {
+    width: 100px; /* Adjust card width on smaller screens */
+  }
+
+  h1 {
+    font-size: 2.5rem; /* Adjust heading size for smaller screens */
+  }
 }
