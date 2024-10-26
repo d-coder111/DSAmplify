@@ -1,0 +1,14 @@
+[
+  {
+    "name": "John Doe",
+    "github": "https://github.com/johndoe"
+  },
+  {
+    "name": "Jane Smith",
+    "github": "https://github.com/janesmith"
+  },
+  {
+    "name": "Alice Johnson",
+    "github": "https://github.com/alicejohnson"
+  }
+]
