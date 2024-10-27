@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DSAmplify - Home</title>
+    <title>DSAmplify - Problem</title>
 
     <style>
       body {
@@ -113,33 +113,15 @@
         <p>DSAmplify</p>
       </div>
       <ul>
-        <li><a href="home">Home</a></li>
-        <li><a href="about">About</a></li>
+        <li><a href="{{ url_for('home') }}">Home</a></li>
+        <li><a href="{{ url_for('about') }}">About</a></li>
         <li><a href="#">Contributors</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </header>
 
-    <h1>DSA Problem Solutions</h1>
-    <form action="/language" method="POST">
-        <label for="language">Select Language:</label>
-        <select id="language" name="language">
-            <option value="C++">C++</option>
-            <option value="JAVA">Java</option>
-            <option value="Python">Python</option>
-        </select>
-        <input type="submit" value="Submit">
-    </form>
-
-    <!-- display the questions of the selected language -->
-    {% if questions %}
-      <h2>{{ language }} Problems</h2>
-      <ul>
-          {% for question in questions %}
-          <li><a href="{{ url_for('problem_solution', filename=question['file'], language=language) }}">{{ question['name'] }}</a></li>
-          {% endfor %}
-      </ul>
-    {% endif %}
+    <h2>{{ question_name }}</h2>
+    <pre><code>{{ code }}</code></pre>
 
   </body>
 </html>
