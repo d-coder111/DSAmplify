@@ -1,0 +1,36 @@
+{
+  "projectName": "DSAmplify",
+  "version": "1.0.0",
+  "server": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "apiEndpoints": {
+    "contributors": "/api/contributors",
+    "home": "/home",
+    "about": "/about",
+    "contact": "/contact"
+  },
+  "frontend": {
+    "themeColor": "#0366d6",
+    "font": "Segoe UI, sans-serif",
+    "layout": {
+      "headerHeight": "60px",
+      "contentWidth": "900px"
+    }
+  },
+  "contributors": [
+    {
+      "name": "Alice",
+      "contributions": ["Sorting algorithms", "Java solutions"]
+    },
+    {
+      "name": "Bob",
+      "contributions": ["Web interface", "Python solutions"]
+    },
+    {
+      "name": "Charlie",
+      "contributions": ["Backend API", "C++ solutions"]
+    }
+  ]
+}
